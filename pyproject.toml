@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prithvi-lucas"
+version = "0.1.0"
+description = "Prithvi-EO experiments for LUCAS land-cover classification"
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+where = ["src"]

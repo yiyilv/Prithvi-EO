@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# User-provided source data and generated artifacts
+data/raw/
+data/chips/
+data/splits/*.txt
+outputs/
+checkpoints/
+*.ckpt
+*.tif
+*.tiff
+*.npz
+data/**/*.csv
+outputs/**/*.csv
